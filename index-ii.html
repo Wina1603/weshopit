@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.svg">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-ii.css">
   <title>weshopit</title>
 </head>
 
@@ -21,33 +21,51 @@
     <div class="login-sec">
       <div class="container">
         <div class="login-hd">
-          <h1>Welcome Back!</h1>
-          <P>Don't have an account? <a class="lnk" href="index-ii.html">Sign up</a></P>
+          <h1>Create your account</h1>
+          <P>Already have an account? <a class="lnk" href="index.html">Sign In</a></P>
         </div>
 
         <!-- Sign Up Form -->
         <form class="login-card">
           <div class="login">
             <div class="card-descrip">
-              <h1>Log In</h1>
+              <h1>Sign Up</h1>
               <p>Enter your credentials to access your account</p>
             </div>
 
             <div class="input-sec">
               <div class="input">
-                <label for="email">EMAIL ADDRESS</label>
+                <label for="email">Email</label>
                 <input type="email" placeholder="Enter Email" required />
-                <img class="i" src="/icons/mail.svg" alt="mail icon" />
+                <!-- <img class="i" src="/icons/mail.svg" alt="mail icon" /> -->
               </div>
 
               <div class="input">
-                <label for="password">PASSWORD</label>
+                <label for="first-name">First name</label>
+                <input type="text" placeholder="Enter first name" required />
+                <!-- <img class="i" src="/icons/eye-slash.svg" alt="password icon" /> -->
+              </div>
+
+              <div class="input">
+                <label for="last-name">last name</label>
+                <input type="text" placeholder="Enter last name" required />
+                <!-- <img class="i" src="/icons/eye-slash.svg" alt="password icon" /> -->
+              </div>
+
+              <div class="input">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Password" required />
+                <img class="i" src="/icons/eye-slash.svg" alt="password icon" />
+              </div>
+
+              <div class="input">
+                <label for="password">Confirm password</label>
                 <input type="password" placeholder="Enter Password" required />
                 <img class="i" src="/icons/eye-slash.svg" alt="password icon" />
               </div>
             </div>
 
-            <div class="rem-me frgt-pswrd">
+            <!-- <div class="rem-me frgt-pswrd">
               <label for="rem" id="input">
                 <input type="checkbox" name="rem" id="rem" value="true" />
                 <span class="checkmark"></span>
@@ -55,13 +73,13 @@
               </label>
 
               <span id="frgt-pswrd"><a href="#">Forgot Password?</a></span>
-            </div>
+            </div> -->
 
-            <button type="submit" class="btn">Log into Account</button>
+            <button type="submit" class="btn">Create account</button>
 
-            <div class="crt-acc">
-              <P>Are you new here? <a class="lnk" href="index-ii.html">Create an account</a></P>
-            </div>
+            <!-- <div class="crt-acc">
+              <P>Are you new here? <a class="lnk" href="#">Create an account</a></P>
+            </div> -->
             <!-- <div class="login-btn"> -->
           </div>
       </div>
